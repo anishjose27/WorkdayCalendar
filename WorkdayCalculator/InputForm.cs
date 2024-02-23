@@ -337,6 +337,7 @@ namespace WorkdayCalculator
             {
                 MessageBox.Show("Please enter a numeric value");
             }
+            //Make sure that the final calculation will result in a valid date
             else if(val>500000)
             {
                 MessageBox.Show("Your input will result in an invalid date. Please enter a value less than 500000");
